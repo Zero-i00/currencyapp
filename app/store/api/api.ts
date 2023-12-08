@@ -1,6 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
-//https://finance.rambler.ru/api/sources/cbr/instruments/USD/?step=1
 const API_URL = 'https://finance.rambler.ru/api/sources/cbr/instruments/'
 
 export const api = createApi({

@@ -1,9 +1,9 @@
 import { IRoute } from './navigation.types'
-import Home from '../components/screens/home/Home'
+import Main from '../components/screens/main/Main'
 
 export const routes: IRoute[] = [
 	{
-		name: 'Home',
-		component: Home
+		name: 'Main',
+		component: Main
 	}
 ]
